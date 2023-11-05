@@ -1,4 +1,8 @@
-import Image from 'next/image'
+import Image from 'next/image';
+
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "../src/styles/layout/layout.scss";
+import "../src/styles/demo/Demos.scss";
 
 export default function Home() {
   return (
@@ -109,5 +113,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }

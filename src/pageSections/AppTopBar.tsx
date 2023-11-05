@@ -1,0 +1,5 @@
+export const AppTopBar = () => {
+  return (
+    ""
+  )
+}
